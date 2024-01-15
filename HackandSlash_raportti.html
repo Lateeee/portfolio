@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Late</title>
+    <link rel="stylesheet" type="text/css" href="2.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="main_container">
+            <div class="header">
+
+                <h1><span>Projektit</span></h1>
+                <div class="header_menu">
+                    <li><a href="1fin.html">Etusivu</a></li>
+                    <li><a href="2fin.html">Projektit</a></li>
+                </div>
+                <ul style="float:right; ">
+
+                </ul>
+            </div>
+            <div class="right_content2">
+
+                <h1 class="textcenter"><span>Hack and Slash</span></h1>
+                <div class="dark-text-box textcenter">
+                    <h6 class="textcenter"><SPAN>Projektin kuvaus</SPAN></h6>
+                    <p><span>
+                            Projektin ideana oli tehdä hack and slash peli. Idea oli minulla jo opintojeni alusta asti
+                            ja koska
+                            olen nimennyt kissani Danten Devil May Cry hahmon mukaan, halusin toteuttaa saman tyyppisen
+                            combatin
+                            pelissä. Peli kuitenkin otti aikansa, että aloin sitä tekemään, mutta mielestäni oli
+                            tärkeää, että
+                            opettelisin vielä Unrealia ennen kuin valmistun. Peli kuittenkin ei tule lähellekään
+                            valmista
+                            muotoaan, jos koskaan valmistuu ja musiikki ominaisuus kyllä jätetään viimeiseksi.
+                            <br><br>
+                            Työ on tarkoitettu aika lailla vain minulle. Aioin vain opetella Unrealin käyttöä tällä
+                            projektilla
+                            ja siinä olen onnistunut. Olen päästy kokeilemaan Unrealin vahvuuksia sekä heikkoutksia
+                            verrattuna
+                            unityyn.
+                            <br><br>
+                            Peliin on saatu valmiiksi vain todella alkeenllinen combat systeemi. Kaikilla hahmoilla on
+                            HP ja HP
+                            bar sekä viholliset osaavat jahdata ja lyödä pelaajaa ja pelaaja vihollisia. Pelaaja myös
+                            uudelleen
+                            syntyy kuollessaan.
+                            Työ jatkuu, jos minulla on aikaa sen jälkeen kuin valmistaudun. Tykästyin hieman
+                            blueprintteihin,
+                            vaikka jossain asioissa unityn C# käyttäminen on vain niin paljon helpompaa ja järkevämpää.
+                            Mutta
+                            esim. Vihollisten tekeminen tuntui niin paljon helpommalta tässä projektissa.
+                            <br><br>
+                            Katsoen että projeki on aloitettu 3 vuotta sitten, niin todella huonolla aikataululla.
+                            Projeki on
+                            jätetty hautumaan hyväksi aikaa, mutta nyt aloin tekemään projektia juuri Unrealin takia.
+
+
+                            <p> <span>
+
+
+
+                                    <h6 class="textcenter"><SPAN>Funktioiden kuvaukset </SPAN></h6>
+                                    <p><span>
+
+                                            Pelissä käytetään Unrealin omia hahmon liikkumis blueprinttejä,
+                                            johon olen
+                                            sitten lisännyt lyönnin ja kuolemisen. Pelissä on tällä hetkellä
+                                            spawnerit
+                                            joista hahmot viholliset spawnaavat. Pelaaja hahmo spawnaa taas
+                                            Unrealin
+                                            omasta spawnerista. Tämän jälkeen, jos pelaaja menee vihollisten
+                                            näkökentällä tietyllä alueella, jahtaa vihollinen pelaajaa
+                                            näkökentällään
+                                            niin kauan, kun pystyy ja jos saavuttaa pelaajaan, lyö se pelaajaa.
+                                            Kaikille
+                                            pelihahmoille on asetettu HP 100 ja jokainen hahmo tekee 34 DMG. Muuten olen
+                                            tehnyt peliin animaatorin joka pyörittää lyömis animaatiota, jonka latasin
+                                            jostain google drivestä linkkinä videon kuvauksessa.
+                                            Tein pelin
+                                            todella vahvasti Gorka Games YouTube kanavat videoitten pohjalta ja
+                                            käytin
+                                            monta videoita, joita yhdistelin, että sain tuotoksen toteutettua ja
+                                            linkki.
+                                            soittolistaan, jossa on videoit jota käytin ja muutama muu:
+                                            <a href="      https://www.youtube.com/watch?v=eH2ONHElTGA&list=PLiSlOaRBfgkfE5tMuS9AQoG41UeToM1Ar
+                                                        "> Linkki soittolistaan</a> <br><br>
+
+                                            Kuvia blueprinteistä: <br><br>
+                                            <img src="kuvat\Hackandslash\enemykoodi.PNG" class="center"><br>
+                                            Ylemäässä kuvassa vihollisten HP palkin toiminta ja vihollisten dmg
+                                            ottaminen ja kuoleminen <br> <br>
+
+                                            <img src="kuvat\Hackandslash\enemykoodi2.PNG" class="center"><br>
+                                            Ylemäässä kuvassa vihollisten hyökkääminen ja DMG tekeminen <br> <br>
+
+
+                                            <img src="kuvat\Hackandslash\pelaaja lyöminen ja hp bar.PNG"
+                                                class="center"><br>
+                                            Ylemäässä kuvassa pelaajan hyökkääminen ja hänen HP bar <br> <br>
+
+                                            Olen siis tehnyt pelin ominaisuudet videoitten pohjalta, mutta olen myös
+                                            vahvasti sekoittanut pelaajien ja vihollisten blueprittnejä, niin etto olen
+                                            kopioinut ja saanut itse toimimaan hahmojen ominaisuuksia.
+
+
+                                            <br>
+                                            <p><span>
+                                                    <h6 class="textcenter"><SPAN>Ongelmat ja raktaisut </SPAN></h6>
+                                                    <p><span>
+                                                            Suurimmat ongelmat olivat Unrealin käyttämisessä. Esim.
+                                                            Pelaaja
+                                                            hitboxia oli TODELLA vaikea löytää kohdilleen, mutta sieltä
+                                                            se täppä
+                                                            sitten lopulta löytyi missä vaihdettiin collaideri toisesta
+                                                            asiasta
+                                                            toiseen, että homma pelitti. Jouduin katsomaan videoin monta
+                                                            kertaa
+                                                            uudestaan. Toinen suuri ongelma mikä minulla oli se, että
+                                                            Unreal ei
+                                                            millään halunnut toimia koneellani. Koska koneessani on myös
+                                                            todella
+                                                            pieni C Drive, on minulla suuri ongelma joten kaikki sdk
+                                                            tiedostot
+                                                            ja muut C++ tuet oli todella rasittava asentaa koneelleni
+                                                            uudestaan
+                                                            ja koska jokainen UNreal versio käyttää eri versioita
+                                                            windwos SDK,
+                                                            piti minun asentaa niitä monta eriälasita, kun yritiin avata
+                                                            vanhaa
+                                                            projektiani.
+                                                            <br>
+                                                        </span></p>
+                                                    <h6 class="textcenter"><SPAN>Video pelistä</SPAN></h6>
+                                                    <p><span>
+                                                            Tässä vielä vieo kuinka "peli" toimii tällä hetkellä.
+                                                            Pelaajan lyönnit eivät selvästi ihan täsmää animaatioihin ja
+                                                            pelaajan on vaikea osua vihollisiin välillä:
+                                                            <div class="video-container">
+                                                                <iframe width="1230" height="700"
+                                                                    src="https://www.youtube.com/embed/riOjFaxaOFw?si=-6Arw3zpb2VN0fJS"
+                                                                    title="YouTube video player" frameborder="0"
+                                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                                    allowfullscreen></iframe>
+                                                            </div>
+                                                        </span></p>
+                                            </P>
+
+
+                </div> <br><br>
+            </div>
+
+            <div class="footer">
+                <p> <span>XD</span></p>
+                <p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

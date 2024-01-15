@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Late</title>
+    <link rel="stylesheet" type="text/css" href="2.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="main_container">
+            <div class="header">
+
+                <h1><span>Projektit</span></h1>
+                <div class="header_menu">
+                    <li><a href="1fin.html">Etusivu</a></li>
+                    <li><a href="2fin.html">Projektit</a></li>
+                </div>
+                <ul style="float:right; ">
+
+                </ul>
+            </div>
+            <div class="right_content2">
+
+                <h1 class="textcenter"><span>Late Night Drinks</span></h1>
+                <div class="dark-text-box textcenter">
+                    <h6 class="textcenter"><SPAN>Projektin kuvaus</SPAN></h6>
+
+                    <p> <span>
+                            Projekti on minun Lauri Salmi (Kooodaus, Suunnittelu, Devaus, pelin kokoamien) ja Mea
+                            Ranatalan (Suunnittelu, Grafiikat, Mallinnus, tekstuurit). Projektin ideana on tehdä Mean
+                            aikaisemmasta projektista jonka hän teki ensimmäisenä opiskelu vuodellaan
+                            lautapeli juomapelistä videopeli versio. Aluksi pelin piti vain olla helposti striimattava
+                            Esim.
+                            Discord sovelluksella, mutta myöhemmin projektin aikana päätimme, että olisi ehkä parempi
+                            jos pelin tekisi niin että ihmiset itse voisivat heittää noppaa ja siirtyä "laudalla"
+                            eli rakennuksessa, joten pelistä alettiin kehittämään netti versiota.
+                            Lautapeli itsestään on simppeli lautapeli, pelaaja heittään noppaa ja liikkuu laudalla
+                            eteenpäin ja riippuen mihin ruutuun pelaaja joutuu, tulee sieltä pelaajalle joku tehtävä
+                            jonka pelaajan pitää suorittaa, esimeriksi pelaaja voi joutua ruutuun "Juo 7 hörppyä"
+                            joka on simppeli tehtävä. Myös vaikeampia tehtäviä löytyy kuten "2 truth 1 lie", jossa
+                            pelaajan pitää keksiä 2 totuutta ja yksi valhe ja ne jotka arvaavat valheen väärin,
+                            joutuvat he juomaan ja jos kaikki arvaavat valheen, joutuu kysyjä itse
+                            juomaan. Nämä ovat siis perus juomapelin tehtäviä ja näistä tehdään vain videopeli
+                            versio.<br><br>
+
+                            Peli on ainakin aluksi suunniteltu vain omaan käyttöön ja jos pelin joskus saisi
+                            valmiiksi, voisi sen ehkä jonnekin laittaa ladattavaksi jos sen onnistuu saamaan
+                            tarpeeksi hienoksi, siihen tosin tarvitsee alkaa mietettä photonin maksamista.<br><br>
+                            Pelin suunniteltiin lautapelin pohjalta, käyttäen samoja tehtäviä. Muuten peli on
+                            erilainen ja teema pelissä on hieman erilainen. Pelissä pelaajat spawnaavat
+                            kerrostalolle/hotellin katolle ja pelin ideana on ns. päästä pelin parvekkeelta talon
+                            ylimmästä kerroksesta pihalle talosta samalla käyden talon jokaisen huoneen läpi.
+                            Jokainen huone tultaisiin koristelemaan niin että se liittyisi jotenkin
+                            teemaan, kuten vesiputous ruudussa taustalla saattaisi mennä vesiputous tai jonkin
+                            näköistä veteen liittyvää joka sopisi taloon.<br><br>
+
+                            Työssä on saatu valmiiksi todella perusteellinen main menu, jossa pelaaja nimetään
+                            känniäälöksiXXXX (x ovat random numeroita). Tämän jälkeen pelaaja voi joko tehdä huoneen
+                            tai liittyvät toisten pelaajien tekemiin huoneisiin. Tämän jälkeen pelin voi aloittaa.
+                            Pelin online versioon ei ole viety pidemmälle muuten, kuin pelaajat voivat heittää
+                            noppaa ja pelin noppa synkkaa molemmille pelaajille ja tämän jälkeen hahmo liikkuu,
+                            mutta tässä on jonkin näköistä synkkaus ongelmaa. Muuten peliin on tehty kaksi prototyyppi
+                            tasoa, jossa toinen toimii offlinessa ja toinen onlinessa. Muuten peliin on tehty kaksi
+                            taloa molempiin versioihin, toimiva noppa joka laskee luvut raycastiä käyttäen lattiaan
+                            jonka tagina on ground ja huoneet talossa joissa kaikissa on waypointit jotka toimivat
+                            pelaajan ruutuina tällä hetkellä. Muuten Mea on tehnyt peliin jo mallinnuksia ja
+                            tekstuureita.<br><br>
+
+                            Työ jatkuu mahdollisesti jatkossa, tosin jos valmistun niin työtä ei välttämättä tule
+                            tehtyä ainakaan kauhean kiireellä eteenpäin, mutta mahdollisesti alan tekemään sitä
+                            enteenpäin jossain kohtaa vielä vaikka valmistun.<br><br>
+                            Työ jakaantui niin että minä pääosin koodaan ja Mea mallintaa. Tämä piti olla enemmän
+                            koodaus tehtävä minulle että saan projekti kurssit tehtyä.<br><br>
+                            Minulla ei ollut enää kursseja joissa olisi pitänyt käydä paikanpäällä, joten tein
+                            tätä niin paljon kuin kerkesin/jaksoin.
+                            Tosin The Ship tuli välissä tehtyä ja nyt olen keskittynyt todella paljon verkkosivujen
+                            tekemiseen.<br><br>
+
+
+
+                            <h6 class="textcenter"><SPAN>Tehtävän kuvaus</SPAN></h6>
+                            <p> <span>Tehtväni oli koodata,devata ja suunnitella peli multiplayer
+                                    ominaisuuksilla. Olen tehnyt
+                                    kaiken muun paitsi mallintanut hahmot, grafiikat, tehnyt toisen talon ja koristellut
+                                    huoneita.<br><br>
+                                    <h6 class="textcenter"><SPAN>Funktioiden kuvaukset </SPAN></h6>
+                                    <p><span>
+
+
+                                            Pelin noppa on ehdottomasti lempiasiani pelissä mitä olen saanut aikaan.
+                                            Noppa
+                                            perjaattesssa vain katsoo mikä numeropuoli on kiinni maassa ja antaa
+                                            luvuksi
+                                            sen vastakkaisen numeron. Tämän jälkeen hahmo menee sen verran ruutuja
+                                            eteenpäin. Demo video miten aasia toimii perjaatteessa. Pelaaja myös
+                                            liikkuu
+                                            laudalla todella nopeasti videolla testaamisen takia, ja videolta
+                                            saattaa tulla
+                                            tunne että jotkut asiat tapahtuvat liian nopeasti tämän takia: <br>
+                                            <div class="video-container">
+                                                <iframe width="1230" height="700"
+                                                    src="https://www.youtube.com/embed/riOjFaxaOFw?si=aTKLDDGikbeWSRvU"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                            <br><br>
+                                            <p><span>
+                                                    Nopan modelin olen vain ottanut unity asset storesta, mutta
+                                                    oletan
+                                                    että Mea
+                                                    tai itse mallinnan oman nopan kun se aika olisi. Tässä vielä
+                                                    koodia miten
+                                                    noppa
+                                                    toimii: <br><br>
+                                                    <img src="kuvat\Latenightdrnksarportti\noppa koodi.png"
+                                                        class="center"><br>Ylemmässä kuvassa spacebaria painamalla
+                                                    noppa hyppää ilmaan ja alkaa kiertämään randomisti yrittäen
+                                                    antaa random
+                                                    luvun sekä lähettää loppu koodille sekä muille pelaajien
+                                                    peleille rpc
+                                                    kutsun jossa peli ymmärtää että noppa on ilmassa ja liikkuu
+                                                    (ettei
+                                                    pelaaja hahmot liiku ennen kuin noppa lopettaa
+                                                    liikkumisen)<br><br>
+                                                    <img src="kuvat\Latenightdrnksarportti\noppakoodi2.png"
+                                                        class="center">
+                                                    <br> Ylemmässä kuvassa taas koodinpätkä päättää minkä luvun
+                                                    noppa antaa
+                                                    katsoen mikä nopan sivu osuu maata kohden.<br> <br>
+                                                    <img src="kuvat\Latenightdrnksarportti\noppa boolen toisille.png"
+                                                        class="center">
+                                                    <br> Ylemmässä kuvassa taas hieman miten noppa lähettää tieto
+                                                    muille
+                                                    pelaajille pelissä <br> <br><br> <br>
+                                                    <img src="kuvat\Latenightdrnksarportti\liikkuminen.png"
+                                                        class="center"><br>
+                                                    Muuten pelissä liikkuminen toimii ylemmällä koodilla. Tämä osio
+                                                    on
+                                                    todella huonosti toteutettu mielestäni ja aika laastari hommia.
+                                                    Tarkoitus on vain saada pelaajaa liikkumaan laudalla jotenkin
+                                                    prototyypissä ja ennen oikeaa versiota veikkaan että ei ole
+                                                    mahdollista
+                                                    tehdä tätä loppuun tällä versiolla liikkumiskoodia, tosin jotain
+                                                    tästä koodista
+                                                    voidaan
+                                                    käyttää. Sen lisäksi pelaaja keskeyttää liikkumisen 1 sekunniksi
+                                                    jokaisen
+                                                    tason lopulla pakottaen pelaajan kävelemään jokaisen tason
+                                                    viimeisen
+                                                    waypoinin kautta ja siirtyen suoraan alempaan waypointiin,
+                                                    ettei
+                                                    waypointtejen seuraaminen menisi suoraan lattian läpi.<br>
+                                                    <br><br> <br>
+
+                                                    <img src="kuvat\Latenightdrnksarportti\drinking.png"
+                                                        class="center"><br>
+
+                                                    Ylemmässä kuvassa suunitelma kuva miltä peli tulisi näyttämään.
+                                                    <br><br> <br>
+
+                                                    Ja viimeiseksi vielä muutama kuva lobbysesteemistä, koodista en
+                                                    laita
+                                                    kuvaa mutta koodi on tehty hyvin pohjautuvasti First Gear
+                                                    Gamesin guiden
+                                                    mukaan: <a
+                                                        href="https://www.youtube.com/watch?v=p8YQpcoaPoU&list=PLkx8oFug638oMagBH2qj1fXOkvBr6nhzt">
+                                                        Linkki soittolistaan tästä!</a><br> Ja kuvat tässä: <br><br>
+                                                    Roomlisting huone jossa voi tehdä huoneen tai joinaa niihin jos
+                                                    niitä
+                                                    olisi:<br><br>
+                                                    <img src="kuvat\Latenightdrnksarportti\room1.png"
+                                                        class="center"><br>
+                                                    Ja miltä näyttää huoneen siällä tällä hetkellä, nimet kasautuvat
+                                                    päällekkäin myös huoneissa:<br><br>
+                                                    <img src="kuvat\Latenightdrnksarportti\room2.png"
+                                                        class="center"><br>
+                                                    <h6 class="textcenter"><SPAN>Ongelmat ja ratkaisu</SPAN></h6>
+                                                    <p><span>
+                                                            Suuria ongelmia ei ole kerennyt vielä ehkä tulemaan
+                                                            tämänhetkisen
+                                                            lisäksi, eli pelissä on synkkaus ongelmaa juuri
+                                                            pelaajien
+                                                            välillä, pelin oma cleint yrittää pakottaa pelaajan
+                                                            hahmoa
+                                                            tiettyyn ruutuun samalla kun nettikoodaus taas
+                                                            toiseen/ne
+                                                            yrittävät pakokotaa pelaajaa samaan ruutuun ja jostain
+                                                            syystä
+                                                            pelaaja vain tärisee paikoillaan sen jälkeen kun se on
+                                                            päässyt
+                                                            ruutuun missä pitääkin. Epäilen siis että nettikoodaus
+                                                            ja pelin
+                                                            paikallinen koodaus menee vaan liikaa ristiin
+                                                            tällä hetkellä ja
+                                                            koko liikkuminen pitäisi ehkä miettiä uudestaan, mutta
+                                                            muuten
+                                                            ratkaisuja ei ole löytynyt
+
+                                                            <br>
+                                                        </span></p>
+                                                </span></p>
+                                    </P>
+
+
+                </div> <br><br>
+            </div>
+
+            <div class="footer">
+                <p> <span>XD</span></p>
+                <p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
