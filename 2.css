@@ -18,9 +18,9 @@ body {
   background-image: url(kuvat/bg/neon-light-4k-nightscapes-mountains.jpg);
 
   background-repeat: no-repeat;
-  background-position: center -100x;
+  background-position: center;
   background-attachment: fixed;
-  background-size: 100% auto;
+  background-size: 100% cover;
   margin: 0;
   table-layout: fixed;
 }

@@ -24,7 +24,7 @@ body {
   background-repeat: no-repeat;
   background-position: center -100x;
   background-attachment: fixed;
-  background-size: 100% auto;
+  background-size: 100% cover;
   margin: 0;
   table-layout: fixed;
 }
