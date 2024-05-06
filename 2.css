@@ -20,24 +20,29 @@ body {
   background-repeat: no-repeat;
   background-position: center -100x;
   background-attachment: fixed;
-  background-size: 100% cover;
+  background-size: 100% auto;
   margin: 0;
   table-layout: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .main {
   margin: auto;
   width: 70%;
 }
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800) {
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+  }
   .main {
     width: 100%;
   }
 }
-@media only screen and (min-width: 3000px) {
+@media only screen and (min-width: 3500px) {
   .main {
-    margin: auto;
-    width: 70%;
+    width: 50%;
   }
 }
 
