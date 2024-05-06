@@ -31,7 +31,7 @@ body {
   margin: auto;
   width: 70%;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .main {
     margin: auto;
     width: 100%;
