@@ -104,7 +104,7 @@ body {
   text-align: center;
   position: relative;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   word-wrap: break-word;
 }
 
@@ -266,8 +266,8 @@ img {
 }
 
 .img4 {
-  height: 420px;
-  width: 450px;
+  height: 320px;
+  width: 350px;
   border: none;
   background: rgb(204, 0, 255);
   filter: drop-shadow(8px 8px 10px rgb(233, 6, 150)) saturate(150%)
@@ -331,7 +331,7 @@ h6 span {
 h1 span {
   background-color: mediumvioletred;
   color: white;
-  font-size: 50px;
+  font-size: 40px;
 }
 h2 span {
   background-color: mediumvioletred;
@@ -341,7 +341,7 @@ h2 span {
 
 h6 span {
   background-color: black;
-  font-size: 35px;
+  font-size: 25px;
   color: white;
 }
 p span {
@@ -360,7 +360,7 @@ iframe {
   border-color: black;
 }
 p {
-  font-size: 30px;
+  font-size: 20px;
   color: white;
 
   margin-top: 30px;
